@@ -26,6 +26,6 @@ Create page-specific layout components. Quiz page and Admin page have their own 
    - AdminPanel uses admin components
 
 ## Acceptance Criteria
-- [ ] Quiz page components directory created with all listed components
-- [ ] Admin page components directory created with all listed components
-- [ ] All components are TypeScript files with proper typing
+- [x] Quiz page components directory created with all listed components
+- [x] Admin page components directory created with all listed components
+- [x] All components are TypeScript files with proper typing
