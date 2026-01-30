@@ -1,8 +1,14 @@
+import { Link } from 'react-router-dom'
+
 export default function HomePage() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>Choose Admin or Quiz</p>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center space-y-6">
+        <div className="flex gap-4 justify-center mt-4">
+          <Link to="/quiz" className="bg-blue-600 text-white px-6 py-3 rounded-lg">Start Quiz</Link>
+          <Link to="/admin" className="bg-gray-200 text-gray-900 px-6 py-3 rounded-lg">Admin Panel</Link>
+        </div>
+      </div>
     </div>
   )
 }

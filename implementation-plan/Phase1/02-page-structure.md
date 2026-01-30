@@ -29,9 +29,9 @@ Set up the skeletal structure for all three main pages with placeholder layouts.
    - Avoid styling in this step (CSS next)
 
 ## Acceptance Criteria
-- [ ] HomePage.tsx renders with two buttons (Admin and Quiz)
-- [ ] Buttons navigate to `/admin` and `/quiz` routes
-- [ ] MainQuizPage.tsx renders with header and content sections
-- [ ] AdminPanel.tsx renders with sidebar and main content area
-- [ ] All admin sub-pages are created and route properly
-- [ ] Content zones are clearly marked with comments
+- [x] HomePage.tsx renders with two buttons (Admin and Quiz)
+- [x] Buttons navigate to `/admin` and `/quiz` routes
+- [x] MainQuizPage.tsx renders with header and content sections
+- [x] AdminPanel.tsx renders with sidebar and main content area
+- [x] All admin sub-pages are created and route properly
+- [x] Content zones are clearly marked with comments
