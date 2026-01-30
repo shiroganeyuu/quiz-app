@@ -2,11 +2,25 @@ import { Link } from 'react-router-dom'
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center space-y-6">
-        <div className="flex gap-4 justify-center mt-4">
-          <Link to="/quiz" className="bg-blue-600 text-white px-6 py-3 rounded-lg">Start Quiz</Link>
-          <Link to="/admin" className="bg-gray-200 text-gray-900 px-6 py-3 rounded-lg">Admin Panel</Link>
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-secondary-50 flex items-center justify-center p-6">
+      <div className="max-w-2xl w-full">
+        <div className="text-center space-y-8">
+          <div className="flex gap-6 justify-center flex-col sm:flex-row">
+            <Link
+              to="/admin"
+              className="btn-secondary w-40 h-40 flex flex-col items-center justify-center gap-4 text-base"
+            >
+              <span className="text-6xl">⚙️</span>
+              <span className="font-semibold">Admin Panel</span>
+            </Link>
+            <Link
+              to="/quiz"
+              className="btn-primary w-40 h-40 flex flex-col items-center justify-center gap-4 text-base"
+            >
+              <span className="text-6xl">🎯</span>
+              <span className="font-semibold">Start Quiz</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

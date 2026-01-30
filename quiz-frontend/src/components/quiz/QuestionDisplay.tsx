@@ -8,14 +8,18 @@ interface Props {
 export default function QuestionDisplay({ question = 'Sample question?', choices = [] }: Props) {
   return (
     <section>
-      <h2 className="text-xl font-semibold">{question}</h2>
-      <ul className="mt-4 space-y-2">
+      <h2 className="text-2xl font-bold text-gray-900 mb-8">{question}</h2>
+      <ul className="space-y-3">
         {choices.length > 0 ? (
           choices.map((c, i) => (
-            <li key={i} className="bg-gray-50 p-2 rounded">{c}</li>
+            <li key={i}>
+              <div className="w-full text-left px-6 py-4 rounded-lg border-2 border-gray-200 bg-white text-gray-800">
+                {c}
+              </div>
+            </li>
           ))
         ) : (
-          <li className="text-gray-600">Choice placeholders</li>
+          <li className="text-gray-600 py-4">No choices available</li>
         )}
       </ul>
     </section>

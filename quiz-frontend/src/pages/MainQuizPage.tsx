@@ -4,11 +4,11 @@ import Header from '../components/quiz/Header'
 
 export default function MainQuizPage() {
   return (
-    <div className="min-h-screen p-6 relative">
-      <main className="max-w-3xl mx-auto">
+    <div className="min-h-screen bg-gray-50 p-6 relative">
+      <main className="max-w-6xl mx-auto">
         <Header round={1} questionNumber={1} />
 
-        <section className="bg-white rounded-md shadow p-6">
+        <section className="card">
           <QuestionDisplay
             question="What is the capital of France?"
             choices={["Paris", "Madrid", "Rome", "Berlin"]}
