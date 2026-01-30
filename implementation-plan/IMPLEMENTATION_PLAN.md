@@ -231,7 +231,6 @@ src/
 
 ### Phase 2: Main Quiz Page
 - [ ] Build QuestionDisplay component
-- [ ] Build AnswerOptions component
 - [ ] Build Scoreboard component
 - [ ] Implement state management for quiz display
 - [ ] Add mock data for testing
