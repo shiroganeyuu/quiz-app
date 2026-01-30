@@ -32,8 +32,8 @@ Configure React Router v6 for the application with three main routes:
    - `/admin/teams` - Team Management
 
 ## Acceptance Criteria
-- [ ] React Router dependency installed
-- [ ] App.tsx configured with BrowserRouter and Routes
-- [ ] Navigation between `/quiz` and `/admin` works
-- [ ] URL changes when navigating
-- [ ] Admin sub-routes are accessible (URLs load correctly)
+- [x] React Router dependency installed
+- [x] App.tsx configured with BrowserRouter and Routes
+- [x] Navigation between `/quiz` and `/admin` works
+- [x] URL changes when navigating
+- [x] Admin sub-routes are accessible (URLs load correctly)
